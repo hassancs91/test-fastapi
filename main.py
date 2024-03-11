@@ -11,3 +11,7 @@ def read_root():
 @app.get("/test/call")
 def read_root():
     return {"Hello": "this is a test endpoint"}
+
+@app.get("/test/call2")
+def read_root():
+    return {"Hello": "this is a test endpoint 2"}
